@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <div class="container">
+     <div class="row">
+         <div class="col-md-10 col-md-push-1">
+             <div class="site-container">
+                 <div class="row">
+                     <div class="col-xs-12">
+                         <header>
+                             <div class="row">
+                                 <div class="col-md-12">
+                                     <a href="/">
+
+                                                                                 </a>
+                                 </div>
+  <title>Analyses Medicales</title>
+  <style>
+  body{
+    background-color: #F4ECF7;
+  }
+  </style>
+  <style>
+  form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+  }
+
+  button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+  }
+
+  </style>
+  </head>
+<body>
+
+<form action="/confirmation" method="post">
+  Numero_utilisateur<br><input type="text" name="Numero_utilisateur"></br>
+Mot_de_passe<br><input type="text" name="Mot_de_passe"></br>
+
+    <div>
+        <label for="name">Nom :</label>
+        <br><input type="text" name="Nom"></br>
+    </div>
+    <div>
+        <label for="name">Prenom :</label>
+        <br><input type="text" name="Prenom"></br>
+    </div>
+    <div>
+        <label for="name">Adresse :</label>
+        <br><input type="text" name="Adresse"></br>
+    </div>
+    <div>
+        <label for="name">Age :</label>
+        <br><input type="text" name="Age"></br>
+    </div>
+    <label for="mail">E-mail :</label>
+    <br><input type="text"  name="E-mail"></br>
+
+
+
+<h3>NUMERATION GLOBULAIRE</h3>
+<h4>(Rentrer des chiffres)</h4>
+Leucocytes (Giga/L)<br><input type="text" name="Leucocytes"></br>
+Hematies (Tera/L)<br><input type="text" name="Hematies"></br>
+Hemoglobine (g/dL)<br><input type="text" name="Hemoglobine"></br>
+Hematocrite (%)<br><input type="text" name="Hematocrite"></br>
+V.G.M. (fI)<br><input type="text" name="VGM"></br>
+C.C.M.H. (g/dL)<br><input type="text" name="CCMH"></br>
+T.C.M.H. (pg)<br><input type="text" name="TCMH"></br>
+R.D.W. (%)<br><input type="text" name="RDW"></br>
+
+<h3>FORMULE LEUCOCYTAIRE</h3>
+Polynucleaires neutrophiles (Giga/L)<br><input type="text" name="Polynucleaires_neutrophiles"></br>
+Polynucleaires eosinophiles (Giga/L)<br><input type="text" name="Polynucleaires_eosinophiles"></br>
+Polynucleaires basophiles (Giga/L)<br><input type="text" name="Polynucleaires_basophiles"></br>
+Lymphocytes (Giga/L)<br><input type="text" name="Lymphocytes"></br>
+Monocytes (Giga/L)<br><input type="text" name="Monocytes"></br>
+
+<h3> NUMERATION PLAQUETTAIRE</h3>
+Plaquettes (Giga/L)<br><input type="text" name="Numeration_des_plaquettes"></br>
+
+
+
+
+
+
+    </div>
+
+    <p><center><strong><ins>
+
+
+    <div class="button">
+        <button type="submit">Envoyer</button></br>
+    </div>
+
+
+</form>
+
+
+<p><tr></tr>
+
+</p>
+
+  </body>

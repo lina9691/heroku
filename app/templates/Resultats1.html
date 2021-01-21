@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Affichage analyses</title>
+    <style>
+    body{
+      background-color: #F4ECF7;
+    }
+    </style>
+    <link rel="stylesheet " href="cv.css">
+
+
+</head>
+<style>h1 {
+color:gray;
+border: 4px solid lightblue;
+padding: 3px;
+background-color: pink
+}
+</style>
+
+<body>
+    <p> <center><img src={{url_for('static',filename="resultat.jpeg")}} class="img-responsive logo" width="200" /> <center/> </p>
+
+
+
+
+
+   </p>
+
+    <h1> <strong> INFORMATIONS PATIENT </strong> </h1>
+
+
+
+
+    <ul>
+    <li><Strong> Nom :{{ Nom }}   </Strong> ..<br />  </li>
+    <li><strong> Prenom : {{ Prenom }}</Strong> </li>
+    <li><strong> Age : {{ Age }}  </Strong>  .. ans</li>
+    <li><strong> Adresse :{{ Adresse }}  </Strong></li>
+
+
+</ul>
+
+    <h1>NUMERATION GLOBULAIRE</h1>
+    <ul>
+
+    <li><Strong>Hematies : {{ Hematies }} </Strong> .. Tera/L</li>
+    <li><Strong>Hemoglobine :{{ Hemoglobine }} </Strong> .. g/dL</li>
+    <li><Strong>Hematocrite :{{ Hematocrite }} </Strong> .. %</li>
+    <li><Strong>V.G.M. :{{ VGM }} </Strong> .. fI</li>
+    <li><Strong>C.C.M.H. : {{ CCMH }} </Strong> .. g/dL</li>
+    <li><Strong>T.C.M.H. : {{ TCMH }}</Strong> .. pg</li>
+    <li><Strong>R.D.W. : {{ RDW }} </Strong> .. %</li>
+
+</ul>
+
+
+  <h1>FORMULE LEUCOCYTAIRE </h1>
+
+    <p><Strong>  Polynucleaires basophiles : {{ Polynucleaires_basophiles  }} </Strong> .. Giga/L<br />
+     </Strong> <br /> <Strong> Polynucleaires neutrophiles : {{ Polynucleaires_neutrophiles }} </Strong> .. Giga/L<br /> <Strong> Lymphocytes :{{ Lymphocytes }} </Strong> .. Giga/L<br /> <Strong> Monocytes : {{ Monocytes }}  </Strong>  .. Giga/L<br />
+   </p>
+
+
+</body>
+</html>

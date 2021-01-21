@@ -1,0 +1,20 @@
+{
+   "Numero_utilisateur":1897754,
+   "Mot_de_passe":"ILoveBrasilia",
+   "Nom":"Abreu",
+   "Prenom":"Thiago",
+   "Age":29,
+   "Adresse":"Av. Augusto Montenegro, 3010 - Parque Verde, Belem - PA, 66635-110, Bresil",
+   "Hematies":3.19,
+   "Hemoglobine":10.9,
+   "Hematocrite":32.7,
+   "VGM":103,
+   "CCMH":33.3,
+   "TCMH":34.2,
+   "RDW":132.8,
+   "Polynucleaires_neutrophiles":4.68,
+   "Polynucleaires_eosinophiles":0.05,
+   "Polynucleaires_basophiles":0.02,
+   "Lymphocytes":2.97,
+   "Monocytes":0.57
+}

@@ -1,0 +1,38 @@
+{
+   "Laboratoire":"Domaine Cherioux",
+   "Ville":"Vitry-Sur-Seine",
+   "Patients":[
+      {
+         "Patient 1":[
+            {
+               "Numero utilisateur": 1897754,
+               "Mot de passe": "ILoveBrasilia",
+               "Nom":"Abreu",
+               "Prenom":"Thiago",
+               "age":29,
+               "Adresse":"Av. Augusto Montenegro, 3010 - Parque Verde, Belem - PA, 66635-110, Bresil",
+               "Hemmogramme":[
+                  {
+                     "Hematies":3.19,
+                     "Hemoglobine":10.9,
+                     "Hematocrite":32.7,
+                     "V.G.M.":103,
+                     "C.C.M.H.":33.3,
+                     "T.C.M.H.":34.2,
+                     "R.D.W.":132.8
+                  }
+               ],
+               "Formule Sanguine":[
+                  {
+                     "Polynucleaires neutrophiles":4.68,
+                     "Polynucleaires eosinophiles":0.05,
+                     "Polynucleaires basophiles":0.02,
+                     "Lymphocytes":2.97,
+                     "monocytes":0.57
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
